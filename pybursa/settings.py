@@ -24,8 +24,8 @@ DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['50.19.109.98']
-#ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['50.19.109.98']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -95,8 +95,8 @@ STATIC_ROOT = (os.path.join(BASE_DIR, "assets"))
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
-#EMAIL_HOST = 'localhost'
-EMAIL_HOST = '50.19.109.98'
+EMAIL_HOST = 'localhost'
+#EMAIL_HOST = '50.19.109.98'
 EMAIL_PORT = 1025
 
 ADMINS = (("Ksenia", "ksenia.kolomiets@gmail.com"),)
