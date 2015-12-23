@@ -95,9 +95,13 @@ STATIC_ROOT = (os.path.join(BASE_DIR, "assets"))
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
-EMAIL_HOST = 'localhost'
-#EMAIL_HOST = '50.19.109.98'
-EMAIL_PORT = 1025
+#EMAIL_HOST = 'localhost'
+#EMAIL_PORT = 1025
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'ksenia.pybursa@gmail.com'
+EMAIL_HOST_PASSWORD = 'Rjkj,jr!1'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 ADMINS = (("Ksenia", "ksenia.kolomiets@gmail.com"),)
 
